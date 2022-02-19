@@ -10,11 +10,6 @@ public class BigDataIndexingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BigDataIndexingApplication.class, args);
-
-	}
-	@Bean
-	public ShallowEtagHeaderFilter shallowEtagHeaderFilter() {
-		return new ShallowEtagHeaderFilter();
 	}
 
 }
